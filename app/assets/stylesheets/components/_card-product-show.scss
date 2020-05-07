@@ -1,0 +1,110 @@
+.main-container-show {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.product-show-category {
+  color: $blue;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+// used in card product show
+.product-show-description {
+  color: $grey_medium;
+  opacity: 0.8;
+  font-weight: light;
+  font-size: 16px;
+}
+
+.card-product-show-title {
+  padding-top: 14px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-product-show {
+  background-color: $white;
+  display: flex;
+  border-radius: 5px;
+}
+
+.card-product-show-img img{
+  width: 350px;
+  height: 550px;
+  object-fit:cover;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.card-product-show-infos {
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-right: 25px;
+  margin-bottom: 20px;
+  flex-direction: column;
+  display: flex;
+  justify-content: space-between;
+  width: 654px;
+}
+
+.card-product-show-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-small {
+  width: 30px;
+}
+
+.btn-picto {
+}
+
+.card-product-total-stock {
+  color: $grey_dark;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.card-product-show-price {
+  color: $green;
+  font-weight: 800;
+  font-size: 24px;
+}
+
+.card-product-show-table {
+  color: $green;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.form-control:disabled, .form-control[readonly] {
+    background-color: #FFFFFF;
+    opacity: 1;
+}
+
+.picto-add {
+  width: 32px;
+  height: 32px;
+  margin-left: 10px;
+  outline: 0;
+}
+
+.scroll-thead{
+    width: 100%;
+    display: inline-table;
+}
+.scroll-tbody-y
+{
+    display: block;
+    overflow-y: scroll;
+}
+.table-body{
+    height: 220px;
+}
+
+.table thead th { border: 0px }
+
+.form-group {
+  margin-bottom: 0;
+}

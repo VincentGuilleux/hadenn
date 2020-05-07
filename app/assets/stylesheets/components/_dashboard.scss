@@ -1,0 +1,74 @@
+.dashboard-grid {
+display: grid;
+// grid-template-columns: 2fr minmax(0 4fr); changé par Anne Jeudi soir !!!!!
+grid-template-columns: 2fr 4fr;
+grid-template-rows: repeat(8, 1fr);
+// grid-column-gap: 15px;
+// grid-row-gap: 15px;
+height: 100vh;
+}
+
+
+.div-page-title {
+  grid-area: 1 / 1 / 2 / 2;
+  background-color: $white;
+  // background-color: #b5dce2;
+  padding: 38px 32px 24px 32px;
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  & img {
+    height: 24px;
+    width: 24px;
+    margin-right: 18px;
+  }
+  p {
+    font-size: 14px;
+    color: $green_light;
+    margin-bottom: 0;
+  }
+}
+
+// .div-search-bar {
+//   grid-area: 1 / 2 / 2 / 3;
+//   // background-color: #cbdcd1;
+//   background-color: $white_smoke;
+//   padding: 38px 32px 24px 32px;
+//   position: sticky;
+//   top: 0;
+// }
+
+.dash-div-notifications {
+  grid-area: 1 / 2 / 2 / 3;
+  // background-color: #f4ebd3;
+  background-color: $white_smoke;
+  padding: 24px 32px;
+}
+
+.dash-div-orders {
+  grid-area: 2 / 1 / 9 / 2;
+  background-color: $white;
+  padding: 0 32px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.dash-div-stats {
+  grid-area: 2 / 2 / 9 / 3;
+} // numbers + graphs
+
+.dash-div-numbers {
+  grid-area: 2 / 2 / 5 / 3;
+  // background-color: #ffe2d4;
+  background-color: $white_smoke;
+  padding: 4px 32px 24px 32px;
+}
+
+.dash-div-graphs {
+  grid-area: 5 / 2 / 9 / 3;
+  // background-color: #b5dce2;
+  background-color: $white_smoke;
+  padding: 24px 32px;
+}

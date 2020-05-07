@@ -1,0 +1,39 @@
+<h1 class="page-title pb-2">Données mensuelles</h1>
+
+<div class="monthly-data-card-grid">
+
+  <div class="monthly-data-card" >
+    <%= image_tag('multiple-actions-add-blue.svg') %>
+    <div class="monthly-data-infos" >
+      <p class="page-title"> <%= new_clients_current_month %> </p>
+      <p class="big-text-semi-bold grey-light">Nouveaux clients</p>
+    </div>
+  </div>
+
+  <div class="monthly-data-card" >
+    <%= image_tag('task-list-approve-blue.svg') %>
+    <div class="monthly-data-infos" >
+      <p class="page-title"><%= orders_number_current_month %></p>
+      <p class="big-text-semi-bold grey-light">Commandes</p>
+    </div>
+  </div>
+
+  <div class="monthly-data-card" >
+    <%= image_tag('task-list-approve-blue.svg') %>
+    <div class="monthly-data-infos" >
+      <p class="page-title"><%= orders_total_current_month %>
+        <sup><span class="big-text-bold">€</span></sup></p>
+      <p class="big-text-semi-bold grey-light">Total des commandes</p>
+    </div>
+  </div>
+
+  <div class="monthly-data-card" >
+    <%= image_tag('shipment-upload-blue.svg') %>
+    <div class="monthly-data-infos" >
+      <p class="page-title"><%= number_with_delimiter(products_total_value) %>
+        <sup><span class="big-text-bold">€</span></sup></p>
+      <p class="big-text-semi-bold grey-light">Valeur du stock</p>
+    </div>
+  </div>
+
+</div>

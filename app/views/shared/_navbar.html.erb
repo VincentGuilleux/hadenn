@@ -1,0 +1,61 @@
+<div class="navbar navbar-expand-sm navbar-light navbar-goutsdfruits">
+  <div class="navbar-avatar"> <%= image_tag "madame-gazeau.jpg"%></div>
+    <ul class="list-inline navbar-picto">
+      <li>
+        <%= link_to dashboard_path, class: " #{'active' if controller_name == 'dashboards'} "  do %>
+          <%= image_tag "layout-dashboard-1.svg" %>
+          <span>DASHBOARD</span>
+        <% end %>
+      </li>
+
+
+      <li>
+        <%= link_to products_path, class: " #{'active' if controller_name == 'products'} " do %>
+        <%= image_tag "fruit-pear.svg" %>
+        <span>PRODUITS</span>
+        <% end %>
+      </li>
+
+      <li>
+        <%= link_to orders_path, class: " #{'active' if controller_name == 'orders'} " do %>
+          <%= image_tag "task-list-approve.svg"%>
+          <span>COMMANDES</span>
+        <% end %>
+      </li>
+
+      <li>
+        <%= link_to clients_path, class: " #{'active' if controller_name == 'clients'} " do %>
+          <%= image_tag "multiple-neutral-2.svg"%>
+          <span>CLIENTS</span>
+        <% end %>
+      </li>
+
+      <li>
+        <%= link_to dashboard_path do %> <!-- Should change eventually -->
+          <%= image_tag "pictostat.svg"%>
+          <span>STATISTIQUES</span>
+        <% end %>
+      </li>
+
+      <li>
+        <%= link_to dashboard_path do %>
+          <%= image_tag "cog.svg"%>
+          <span>PARAMÈTRES</span>
+        <% end %>
+      </li>
+    </ul>
+  <div>
+    <ul class="list-inline navbar-picto">
+      <li>
+        <%= link_to destroy_user_session_path, method: :delete do %>
+          <%= image_tag "logout-2.svg"%>
+        <% end %>
+      </li>
+    </ul>
+    <div class="navbar-logo">
+      <%= link_to root_path do %>
+        <%= image_tag "Logo-Hadenn-white.png"%>
+      <% end %>
+      </div>
+  </div>
+</div>

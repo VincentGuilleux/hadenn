@@ -1,0 +1,146 @@
+// for all page titles + monthly data results
+.page-title {
+  color: $grey_dark;
+  font-weight: 900;
+  font-size: 24px;
+}
+.pt40 {
+  padding-top: 40px;
+}
+
+.pr35 {
+  padding-right: 35px;
+}
+
+.pr10 {
+  padding-right: 10px;
+}
+
+.pb25 {
+  padding-bottom: 25px;
+}
+
+.pl60 {
+  padding-left: 60px;
+}
+
+.mr5 {
+  margin-right: 5px;
+}
+
+.nopnom {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+// used in dashboard (Ex. : Meilleures ventes gourmandises)
+.small-text {
+  font-size: 12px;
+}
+
+.small-text-bold {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.semi-small-text-bold {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.semi-small-text {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.middle-text {
+  font-size: 16px;
+}
+
+.middle-text-bold {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.big-text-semi-bold { // non coherent name to change
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.semi-big-text {
+  font-size: 18px;
+}
+
+.big-text-bold {
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 20px;
+}
+
+.light-bold {
+font-weight: 300;
+}
+
+.semi-bold {
+font-weight: 600;
+}
+
+.bold {
+font-weight: bold;
+}
+
+
+// colors
+.white {
+color: $white;
+}
+
+.white-smoke {
+color: $white_smoke;
+}
+
+.blue {
+color: $blue;
+}
+
+.red-alert {
+color: $red_alert;
+}
+
+.orange-alert {
+color: $orange_alert;
+}
+
+.yellow-alert {
+color: $yellow_alert;
+}
+
+.green-dark {
+color: $green_dark;
+}
+
+.green {
+color: $green;
+}
+
+.green-light {
+color: $green_light;
+}
+
+.grey-dark {
+color: $grey_dark;
+}
+
+.grey-medium {
+color: $grey_medium;
+}
+
+.grey-light {
+color: $grey_light;
+}
+
+.grey-very-light {
+color: $grey_very-light;
+}
